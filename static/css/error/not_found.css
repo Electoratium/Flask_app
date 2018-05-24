@@ -1,0 +1,65 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(135deg, #282430 0%, #100e12 100%);
+  min-height: 100vh;
+  font-family: 'Lato', sans-serif;
+}
+.table {
+  display: table;
+  width: 100%;
+}
+.table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    font-size: 40vmin;
+    text-align: center;
+    line-height: 30vh;
+    margin: 6vh 0 10vh 0;
+    color: rgba(255, 255, 255, 0.7);
+    text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+}
+h2 {
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 2.5vmin;
+}
+.mainbox {
+    height: 100vmin;
+}
+.holder {
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+button{
+    mix-blend-mode: screen;
+    -webkit-appearance: none;
+    outline: none;
+    border: 2px solid #fff;
+    background: transparent;
+    padding: 20px 60px;
+    font-size: 2vmin;
+    letter-spacing: 0.25vmin;
+    margin: 3vh 0;
+    transition: all 0.2s;
+    opacity: 0.85;
+}
+button a{
+    color: #fff;
+    text-decoration: none;
+}
+button:hover{
+    background-color: #fff;
+}
+button:hover a{
+    color: #000;
+}

@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+#map{
+    position: relative;
+    width: 95%;
+    height: 95%;
+}
+.country_tooltip{
+    background: white;
+    border-radius: 5px;
+    opacity: 0.85;
+    font-size: 0.7rem;
+}
+.country_tooltip .title{
+    font-weight: bold;
+    text-align: center;
+}
